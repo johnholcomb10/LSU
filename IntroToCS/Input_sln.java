@@ -1,5 +1,5 @@
 import java.util.Scanner; // Scanner needs to be imported before its used in our code
-public class Solution {
+public class Input_sln {
 
 	
 	public static void SLN(String[] args) {

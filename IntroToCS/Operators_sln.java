@@ -1,5 +1,5 @@
 
-public class Solution {
+public class Operators_sln {
 	public static void SLN(String[] args) {
 		int x = 10; //Initialize x to 10
 		int y = 3; //Initialize y to 3
