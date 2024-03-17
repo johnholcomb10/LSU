@@ -1,5 +1,5 @@
 
-public class Car implements Comparable<Car>{
+public class Car implements Comparable<Car> {
 	
 	private String make;
 	private int year, price;
@@ -25,7 +25,12 @@ public class Car implements Comparable<Car>{
 	public int compareTo(Car other) {
 		if (make.compareTo(other.make) != 0) {
 			return make.compareTo(other.make);
+		}
 		return Integer.compare(year, other.year);
+	}
+
+	public String toString() {
+		return "Make: " + make + ", Year: " + year + ", Price: " + price + ";";
 	}
 	
 }

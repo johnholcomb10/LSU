@@ -2,28 +2,41 @@ import java.util.*;
 public class aOrderedList{
 	
 	final int SIZEINCREMENTS = 20;
-	private ArrayList<Car> oList;
+	private Car[] oList;
 	private int listSize;
 	private int numObjects;
+	private int curr;
 	
 	public aOrderedList() {
-		oList = new ArrayList<>(SIZEINCREMENTS);
+		oList = new Car[SIZEINCREMENTS];
 		listSize = SIZEINCREMENTS;
 		numObjects = 0;
 	}
 	
-	public void add(Car newCar) {
-		oList.add(numObjects, newCar);
+	public void add(Car newObject) {
+		if(numObjects == listSize) {
+			Car[] newOList = Arrays.copyOf(oList, 2 * listSize);
+			oList = newOList;
+		}
+		oList[numObjects] = newObject;
 		numObjects++;
-		Collections.sort(oList);
+		//Arrays.sort(oList);
+	}
+
+	public String toString() {
+		String arrayString = "";
+		for(Car car : oList){
+			arrayString.concat("[" + car.toString() + "]\n");
+		}
+		return arrayString;
 	}
 
 	public int size() {
-		return listSize;
+		return numObjects;
 	}
 
 	public Car get(int index) {
-		return oList.get(index);
+		return oList[index];
 	}
 
 	public boolean isEmpty() {
@@ -34,11 +47,30 @@ public class aOrderedList{
 	}
 
 	public void remove(int index) {
-		oList.remove(index);
-		for(int i = (index + 1); i<oList.size();i++){
-			oList.
+		for(int i = index; i < numObjects;i++){
+			oList[i] = oList[i+1];
 		}
+		oList[numObjects] = null;
 		numObjects--;
 	}
+	
+	public void reset() {
+		curr = 0;
+	}
 
+	public Car next() {
+		curr++;
+		return oList[curr];
+	}
+
+	public boolean hasNext() {
+		if(curr < numObjects) {
+			return true;
+		}
+		return false;
+	}
+
+	public void remove() {
+		remove(curr);
+	}
 }
