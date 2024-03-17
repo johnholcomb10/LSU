@@ -1,16 +1,42 @@
 import java.util.*;
 import java.io.*;
 
+/**
+* This class contains the main method for the whole program and handles the input file, the add/delete operations, and the creation of the final sorted file.
+*
+* CSC 1351 Programming Project No 1
+7
+* Section 2
+*
+* @author John Holcomb
+* @since 3/17/24
+*
+*/
+
 public class Prog01_aOrderedList {
 	
+    /**
+* Main method, controls operation of program
+*
+* CSC 1351 Programming Project No 1
+* Section 2
+*
+* @author John Holcomb
+* @since 3/17/24
+*
+*/
+
 	public static void main(String[] args) {
 		aOrderedList newAOrderedList = new aOrderedList();
+        //list of cars
 
 		try {
             Scanner fileScanner = getInputScanner();
+            //scans file for addition and deletion commands and initial list of cars
             
 			while(fileScanner.hasNextLine()) {
 				String[] parts = fileScanner.nextLine().split(",");
+                //separates each line of the input file for its attributes
 				
 				if(parts[0].equals("A")) {
 					Car car = new Car(parts[1], Integer.parseInt(parts[2]), Integer.parseInt(parts[3]));
@@ -36,6 +62,7 @@ public class Prog01_aOrderedList {
 
 		try {
             PrintWriter outputPrintWriter = getOutputFile();
+            //printwriter that creates output file and prints sorted list of cars.
             outputPrintWriter.print(newAOrderedList.toString());
             outputPrintWriter.close();
             System.out.println("Data has been written to the file successfully.");
@@ -48,10 +75,24 @@ public class Prog01_aOrderedList {
         }
 	}
 
+        /**
+    * Input scanner that prompts user for input file
+    *
+    * CSC 1351 Programming Project No 1
+    * Section 2
+    *
+    * @author John Holcomb
+    * @since 3/17/24
+    *
+    */
+
 	public static Scanner getInputScanner() throws FileNotFoundException {
 		Scanner scanner = new Scanner(System.in);
+        //scans for user console input
         String fileName;
+        //name of file
         File file;
+        //the input file
  
         while (true) {
             System.out.print("Enter the filename of the text input file: ");
@@ -72,10 +113,24 @@ public class Prog01_aOrderedList {
         }
     }
 
+            /**
+    * Printwriter that accepts user preference for file name and writes final sorted car list to file
+    *
+    * CSC 1351 Programming Project No 1
+    * Section 2
+    *
+    * @author John Holcomb
+    * @since 3/17/24
+    *
+    */
+
 	public static PrintWriter getOutputFile() throws FileNotFoundException {
 		Scanner scanner = new Scanner(System.in);
+        //scans for user console input
         PrintWriter printWriter = null;
+        //writes file of sorted list
         boolean validFilename = false;
+        //boolean to check status of file scan
  
         while (!validFilename) {
             System.out.print("Enter the filename for the text output file: ");
