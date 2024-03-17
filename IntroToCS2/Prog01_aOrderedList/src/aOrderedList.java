@@ -15,8 +15,9 @@ public class aOrderedList{
 	
 	public void add(Car newObject) {
 		if(numObjects == listSize) {
-			Car[] newOList = Arrays.copyOf(oList, 2 * listSize);
+			Car[] newOList = Arrays.copyOf(oList, listSize + SIZEINCREMENTS);
 			oList = newOList;
+			listSize += SIZEINCREMENTS;
 		}
 		oList[numObjects] = newObject;
 		numObjects++;
@@ -40,17 +41,14 @@ public class aOrderedList{
 	}
 
 	public boolean isEmpty() {
-		if(numObjects == 0){
-			return true;
-		}
-		return false;
+		return numObjects == 0;
 	}
 
 	public void remove(int index) {
-		for(int i = index; i < numObjects;i++){
+		for(int i = index;i < numObjects - 1;i++){
 			oList[i] = oList[i+1];
 		}
-		oList[numObjects] = null;
+		oList[numObjects - 1] = null;
 		numObjects--;
 	}
 	

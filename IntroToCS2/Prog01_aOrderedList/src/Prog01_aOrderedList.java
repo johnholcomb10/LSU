@@ -15,12 +15,22 @@ public class Prog01_aOrderedList {
 				if(parts[0].equals("A")) {
 					Car car = new Car(parts[1], Integer.parseInt(parts[2]), Integer.parseInt(parts[3]));
 					newAOrderedList.add(car);
-				} else {
-					
+				} else if(parts[1].equals("D")) {
+					for(int i = 0; i < newAOrderedList.size(); i++) {
+                        if(newAOrderedList.get(i).getMake().equals(parts[1])) {
+                            if(newAOrderedList.get(i).getYear() == Integer.parseInt(parts[2])) {
+                                newAOrderedList.remove(i);
+                            }
+                        }
+                    }
 				}
 			}
             fileScanner.close();
         } catch (FileNotFoundException e) {
+			if(e.getMessage().equals("c")) {
+				System.out.print("Program execution cancelled.");
+				System.exit(0);
+			}
             System.out.println("File not found: " + e.getMessage());
 		}
 
@@ -30,6 +40,10 @@ public class Prog01_aOrderedList {
             outputPrintWriter.close();
             System.out.println("Data has been written to the file successfully.");
         } catch (FileNotFoundException e) {
+			if(e.getMessage().equals("c")) {
+				System.out.print("Program execution cancelled.");
+				System.exit(0);
+			}
             System.err.println("An error occurred while writing to the file: " + e.getMessage());
         }
 	}
@@ -44,11 +58,12 @@ public class Prog01_aOrderedList {
             fileName = scanner.nextLine();
             if (fileName.equalsIgnoreCase("cancel")) {
 				scanner.close();
-                throw new FileNotFoundException("Program execution cancelled.");
+                throw new FileNotFoundException("c");
             }
  
             file = new File(fileName);
             if (file.exists()) {
+                System.out.println("Input file found!");
 				scanner.close();
                 return new Scanner(file);
             } else {
@@ -75,7 +90,7 @@ public class Prog01_aOrderedList {
                 if (input.equalsIgnoreCase("cancel")) {
 					scanner.close();
 					printWriter.close();
-                    throw new FileNotFoundException("Program execution cancelled.");
+                    throw new FileNotFoundException("c");
                 }
             }
         }
