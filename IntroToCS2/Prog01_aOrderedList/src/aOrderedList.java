@@ -60,7 +60,7 @@ public class aOrderedList{
 		}
 		oList[numObjects] = newObject;
 		numObjects++;
-		//Arrays.sort(oList);
+		Arrays.sort(oList, Comparator.nullsLast(Comparator.naturalOrder())); 
 	}
 
 	    /**
@@ -77,8 +77,8 @@ public class aOrderedList{
 	public String toString() {
 		String arrayString = "";
 		//printable string for array of cars
-		for(Car car : oList){
-			arrayString.concat("[" + car.toString() + "]\n");
+		for(int i = 0; i < size(); i++){
+			arrayString += "[" + get(i).toString() + "]\n";
 		}
 		return arrayString;
 	}

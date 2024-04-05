@@ -94,7 +94,7 @@ public class Car implements Comparable<Car> {
 		if (make.compareTo(other.make) != 0) {
 			return make.compareTo(other.make);
 		}
-		return Integer.compare(year, other.year);
+		return -1 * Integer.compare(year, other.year);
 	}
 
 	    /**
@@ -109,7 +109,7 @@ public class Car implements Comparable<Car> {
 */
 
 	public String toString() {
-		return "Make: " + make + ", Year: " + year + ", Price: " + price + ";";
+		return "Make: " + make + ", Year: " + year + ", Price: " + price;
 	}
 	
 }

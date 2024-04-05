@@ -1,0 +1,196 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AceOfSpades",
+            "request": "launch",
+            "mainClass": "AceOfSpades",
+            "projectName": "AceOfSpades"
+        },
+        {
+            "type": "java",
+            "name": "ArrayGen",
+            "request": "launch",
+            "mainClass": "ArrayGen",
+            "projectName": "ArrayGen"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPlayground",
+            "request": "launch",
+            "mainClass": "ArrayPlayground",
+            "projectName": "ArrayPlayground"
+        },
+        {
+            "type": "java",
+            "name": "BookStore",
+            "request": "launch",
+            "mainClass": "BookStore",
+            "projectName": "BookStore"
+        },
+        {
+            "type": "java",
+            "name": "Cake",
+            "request": "launch",
+            "mainClass": "Cake",
+            "projectName": "CakeShop"
+        },
+        {
+            "type": "java",
+            "name": "ChadPredictor",
+            "request": "launch",
+            "mainClass": "ChadPredictor",
+            "projectName": "ChadPredictor1"
+        },
+        {
+            "type": "java",
+            "name": "CipherDriver",
+            "request": "launch",
+            "mainClass": "CipherDriver",
+            "projectName": "Cipher"
+        },
+        {
+            "type": "java",
+            "name": "elevator",
+            "request": "launch",
+            "mainClass": "elevator",
+            "projectName": "Elevator"
+        },
+        {
+            "type": "java",
+            "name": "FactorFinder",
+            "request": "launch",
+            "mainClass": "FactorFinder",
+            "projectName": "FactorFinder"
+        },
+        {
+            "type": "java",
+            "name": "FilesProject",
+            "request": "launch",
+            "mainClass": "FilesProject",
+            "projectName": "FilesProject"
+        },
+        {
+            "type": "java",
+            "name": "FixUp",
+            "request": "launch",
+            "mainClass": "FixUp",
+            "projectName": "FixUp"
+        },
+        {
+            "type": "java",
+            "name": "gradecalculator",
+            "request": "launch",
+            "mainClass": "gradecalculator",
+            "projectName": "GradeCalculator"
+        },
+        {
+            "type": "java",
+            "name": "Printers",
+            "request": "launch",
+            "mainClass": "Printers",
+            "projectName": "GrandmasPrinter"
+        },
+        {
+            "type": "java",
+            "name": "looping",
+            "request": "launch",
+            "mainClass": "looping",
+            "projectName": "Looping"
+        },
+        {
+            "type": "java",
+            "name": "NumberGuesser",
+            "request": "launch",
+            "mainClass": "NumberGuesser",
+            "projectName": "NumberGuesser"
+        },
+        {
+            "type": "java",
+            "name": "PizzaDriver",
+            "request": "launch",
+            "mainClass": "PizzaDriver",
+            "projectName": "Pizza"
+        },
+        {
+            "type": "java",
+            "name": "Prog01_aOrderedList",
+            "request": "launch",
+            "mainClass": "Prog01_aOrderedList",
+            "projectName": "Prog01_aOrderedList"
+        },
+        {
+            "type": "java",
+            "name": "Utilities",
+            "request": "launch",
+            "mainClass": "Utilities",
+            "projectName": "Project4"
+        },
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "Driver",
+            "projectName": "Queue"
+        },
+        {
+            "type": "java",
+            "name": "RPGSimulator",
+            "request": "launch",
+            "mainClass": "RPGSimulator",
+            "projectName": "RPGSimulator"
+        },
+        {
+            "type": "java",
+            "name": "SumCalculator",
+            "request": "launch",
+            "mainClass": "SumCalculator",
+            "projectName": "SumCalculator"
+        },
+        {
+            "type": "java",
+            "name": "SuperSecret",
+            "request": "launch",
+            "mainClass": "SuperSecret",
+            "projectName": "SuperSecret"
+        },
+        {
+            "type": "java",
+            "name": "TaxCalculator",
+            "request": "launch",
+            "mainClass": "TaxCalculator",
+            "projectName": "TaxCalculator"
+        },
+        {
+            "type": "java",
+            "name": "TurnsTable",
+            "request": "launch",
+            "mainClass": "TurnsTable",
+            "projectName": "TurnsTable"
+        },
+        {
+            "type": "java",
+            "name": "vowels",
+            "request": "launch",
+            "mainClass": "vowels",
+            "projectName": "Vowels"
+        },
+        {
+            "type": "java",
+            "name": "Exchange",
+            "request": "launch",
+            "mainClass": "Exchange",
+            "projectName": "Year3000"
+        }
+    ]
+}
