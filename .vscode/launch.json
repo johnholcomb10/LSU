@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "Driver",
+            "projectName": "PublicationProject"
+        },
+        {
+            "type": "java",
+            "name": "TextTranslation",
+            "request": "launch",
+            "mainClass": "TextTranslation",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "TextTranslator",
+            "request": "launch",
+            "mainClass": "TextTranslator",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
