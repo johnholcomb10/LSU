@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stacks",
+            "request": "launch",
+            "mainClass": "Stacks",
+            "projectName": "Stacks"
+        },
+        {
+            "type": "java",
             "name": "Driver",
             "request": "launch",
             "mainClass": "Driver",

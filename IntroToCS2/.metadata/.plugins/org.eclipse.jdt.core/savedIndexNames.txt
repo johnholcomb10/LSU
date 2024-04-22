@@ -2,9 +2,11 @@ INDEX VERSION 1.134+C:\Users\johnt\OneDrive\Documents\GitHub\LSU\IntroToCS2\.met
 3863027639.index
 1511029860.index
 701338114.index
-3030897697.index
+915165250.index
+2036274974.index
 3338841719.index
 294805210.index
 3927044815.index
 1865797976.index
 1584714973.index
+2734712555.index
