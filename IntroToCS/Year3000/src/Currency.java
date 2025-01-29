@@ -2,6 +2,7 @@
 public class Currency {
 
 	private String Currency_Name;
+	@SuppressWarnings("unused")
 	private double Exchange_Rate;
 	private double Amount;
 	

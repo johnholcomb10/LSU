@@ -163,6 +163,7 @@ public class LinkedList <LLType> {
 			prev = null;
 		}
 		
+		@SuppressWarnings("unused")
 		public Node(Ntype val, Node<Ntype> n, Node<Ntype> p){
 			data = val;
 			next = n;
