@@ -1,0 +1,106 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <string.h>
+
+void printMenu();
+int parseNum(char*);
+long getFileSize(FILE*);
+void cbcDecrypt(char*, int, char);
+
+int main(int argc, char** argv){
+    
+    if(argc != 2){
+        printf("[!]Usage: %s <FilePath> \n", argv[0]);
+        return 0;
+    }
+    char * filepath = argv[1];
+    char* inptbuf = (char *) malloc(64);
+    char* outbuf = (char *) malloc(4096);
+    char command;   
+    if (inptbuf == NULL){
+        printf("[!]Error allocating buf\n");
+        return 0 ;
+    }
+    FILE * fp = fopen(filepath, "r");
+    if(fp == NULL){
+        printf("[!]Error opening file!\n");
+        printf("[*]Error: %s",strerror(errno));
+        return 0;
+    }
+    printMenu();
+    char done = 0; 
+    long offset; 
+    do{
+        offset = ftell(fp);   
+        printf("[*]You are at position: %ld\n", offset);
+        printf("[>]");
+        fgets(inptbuf, 64, stdin);
+        command = inptbuf[0];
+        switch (command)
+        {
+        case 'r': 
+            int nums = parseNum(&inptbuf[1]) & 4095;
+            int numread = fread(outbuf, sizeof(char), nums, fp);
+            printf("-----BEGIN READ ----- (%d bytes) \n", numread);
+            cbcDecrypt(outbuf, numread, 157);
+            int numwrite = fwrite(outbuf, sizeof(char), numread, stdout);
+            printf("\n-----END READ ----- (%d bytes written out)\n",numwrite);
+            printf("\nThis file is %ld bytes long\n\n", getFileSize(fp));
+            break;
+        case '+': offset = fseek(fp, parseNum(&inptbuf[1]), SEEK_CUR); break;
+        case '-': offset = fseek(fp, (-1) * parseNum(&inptbuf[1]), SEEK_CUR); break;
+        case 'b': offset = fseek(fp,0,SEEK_SET); break;
+        case 'e': offset = fseek(fp,0,SEEK_END); break;
+        case 'm': printMenu(); break;
+        case 's': printf("\n[*]The file size is %ld\n", getFileSize(fp)); break;
+        case 'q': done = 1; break;       
+        default:
+            printf("[!]Command %c not recognized", command);
+            break;
+        }
+    } while (!done);
+}
+
+int parseNum(char * buf){
+    return atoi(buf);
+}
+
+void cbcDecrypt(char* buf, int len, char key) {
+    char prevBlock[64] = {0}; // IV initialized to zero
+    char tempBlock[64];
+    for (int i = 0; i < len; i += 64) {
+        int blockSize = (len - i) < 64 ? (len - i) : 64;
+        memcpy(tempBlock, &buf[i], blockSize);
+        if (i == 0) { // Apply key only to the first block
+            for (int j = 0; j < blockSize; j++) {
+                buf[i + j] = tempBlock[j] ^ key;
+            }
+        } else { // Apply standard CBC decryption to subsequent blocks
+            for (int j = 0; j < blockSize; j++) {
+                buf[i + j] = tempBlock[j] ^ prevBlock[j];
+            }
+        }
+        memcpy(prevBlock, tempBlock, blockSize); // Update previous block
+    }
+}
+
+void printMenu() {
+    printf("[*]Menu:\n");
+    printf("\tr<number> - read number of bytes from file\n");
+    printf("\t+<number> - move number of bytes forward\n");
+    printf("\t-<number> - move number of bytes backward\n");
+    printf("\tb         - move to beginning of file\n");
+    printf("\te         - move to end of file\n");
+    printf("\tm         - display menu\n");
+    printf("\ts         - display file size\n");
+    printf("\tq         - quit file viewer\n");
+}
+
+long getFileSize(FILE* fp) {
+    long restore = ftell(fp);
+    fseek(fp,0,SEEK_END);
+    long result = ftell(fp);
+    fseek(fp,restore,SEEK_SET);
+    return result;
+}
