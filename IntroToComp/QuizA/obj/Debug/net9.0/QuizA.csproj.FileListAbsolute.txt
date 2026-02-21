@@ -1,0 +1,15 @@
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\bin\Debug\net9.0\QuizA.exe
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\bin\Debug\net9.0\QuizA.deps.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\bin\Debug\net9.0\QuizA.runtimeconfig.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\bin\Debug\net9.0\QuizA.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\bin\Debug\net9.0\QuizA.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\obj\Debug\net9.0\QuizA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\obj\Debug\net9.0\QuizA.AssemblyInfoInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\obj\Debug\net9.0\QuizA.AssemblyInfo.cs
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\obj\Debug\net9.0\QuizA.csproj.CoreCompileInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\obj\Debug\net9.0\QuizA.sourcelink.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\obj\Debug\net9.0\QuizA.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\obj\Debug\net9.0\refint\QuizA.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\obj\Debug\net9.0\QuizA.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\obj\Debug\net9.0\QuizA.genruntimeconfig.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\QuizA\obj\Debug\net9.0\ref\QuizA.dll

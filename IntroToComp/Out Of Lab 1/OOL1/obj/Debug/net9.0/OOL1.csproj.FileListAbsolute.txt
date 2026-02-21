@@ -1,0 +1,15 @@
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\bin\Debug\net9.0\OOL1.exe
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\bin\Debug\net9.0\OOL1.deps.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\bin\Debug\net9.0\OOL1.runtimeconfig.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\bin\Debug\net9.0\OOL1.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\bin\Debug\net9.0\OOL1.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\obj\Debug\net9.0\OOL1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\obj\Debug\net9.0\OOL1.AssemblyInfoInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\obj\Debug\net9.0\OOL1.AssemblyInfo.cs
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\obj\Debug\net9.0\OOL1.csproj.CoreCompileInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\obj\Debug\net9.0\OOL1.sourcelink.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\obj\Debug\net9.0\OOL1.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\obj\Debug\net9.0\refint\OOL1.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\obj\Debug\net9.0\OOL1.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\obj\Debug\net9.0\OOL1.genruntimeconfig.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 1\OOL1\obj\Debug\net9.0\ref\OOL1.dll
