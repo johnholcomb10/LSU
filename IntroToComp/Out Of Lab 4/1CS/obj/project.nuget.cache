@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/LANUi5fUNE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\Out Of Lab 4\\1CS\\1CS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\johnt\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\johnt\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\johnt\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.13\\microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\johnt\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.13\\microsoft.netcore.app.host.win-x64.9.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

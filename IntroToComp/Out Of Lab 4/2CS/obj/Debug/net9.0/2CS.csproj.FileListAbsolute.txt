@@ -1,0 +1,15 @@
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\bin\Debug\net9.0\2CS.exe
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\bin\Debug\net9.0\2CS.deps.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\bin\Debug\net9.0\2CS.runtimeconfig.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\bin\Debug\net9.0\2CS.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\bin\Debug\net9.0\2CS.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\obj\Debug\net9.0\2CS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\obj\Debug\net9.0\2CS.AssemblyInfoInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\obj\Debug\net9.0\2CS.AssemblyInfo.cs
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\obj\Debug\net9.0\2CS.csproj.CoreCompileInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\obj\Debug\net9.0\2CS.sourcelink.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\obj\Debug\net9.0\2CS.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\obj\Debug\net9.0\refint\2CS.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\obj\Debug\net9.0\2CS.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\obj\Debug\net9.0\2CS.genruntimeconfig.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 4\2CS\obj\Debug\net9.0\ref\2CS.dll
