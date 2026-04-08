@@ -1,0 +1,10 @@
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\OutOfLab7\OutOfLab7\bin\Debug\OutOfLab7.exe.config
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\OutOfLab7\OutOfLab7\bin\Debug\OutOfLab7.exe
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\OutOfLab7\OutOfLab7\bin\Debug\OutOfLab7.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\OutOfLab7\OutOfLab7\obj\Debug\OutOfLab7.csproj.AssemblyReference.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\OutOfLab7\OutOfLab7\obj\Debug\OutOfLab7.Form1.resources
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\OutOfLab7\OutOfLab7\obj\Debug\OutOfLab7.Properties.Resources.resources
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\OutOfLab7\OutOfLab7\obj\Debug\OutOfLab7.csproj.GenerateResource.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\OutOfLab7\OutOfLab7\obj\Debug\OutOfLab7.csproj.CoreCompileInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\OutOfLab7\OutOfLab7\obj\Debug\OutOfLab7.exe
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\OutOfLab7\OutOfLab7\obj\Debug\OutOfLab7.pdb
