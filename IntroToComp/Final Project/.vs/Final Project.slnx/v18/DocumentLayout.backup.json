@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\Final Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|c:\\users\\johnt\\onedrive - louisiana state university\\documents\\github\\lsu\\introtocomp\\final project\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|solutionrelative:movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\Final Project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|c:\\users\\johnt\\onedrive - louisiana state university\\documents\\github\\lsu\\introtocomp\\final project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\Final Project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|c:\\users\\johnt\\onedrive - louisiana state university\\documents\\github\\lsu\\introtocomp\\final project\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|solutionrelative:movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EFCFF13-E9F6-2690-B04E-51AE49DBD320}|Final Project.csproj|c:\\users\\johnt\\onedrive - louisiana state university\\documents\\github\\lsu\\introtocomp\\final project\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -40,14 +40,14 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\Final Project\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAiwNEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0BAAAAAAAAAAAAAL0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T21:31:45.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\Final Project\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -59,13 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "movies.json",
               "DocumentMoniker": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\Final Project\\movies.json",
               "RelativeDocumentMoniker": "movies.json",
               "ToolTip": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\Final Project\\movies.json",
               "RelativeToolTip": "movies.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-25T02:02:24.766Z",
               "EditorCaption": ""
@@ -80,8 +80,7 @@
               "RelativeToolTip": "Movie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T02:02:28.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T02:02:28.204Z"
             },
             {
               "$type": "Document",
@@ -91,7 +90,7 @@
               "RelativeDocumentMoniker": "Form1.Designer.cs",
               "ToolTip": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\Final Project\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAABgBAAAAAAAAAAAAADQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABkBAAAAAAAAAGBnwDUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T21:32:04.421Z",
               "EditorCaption": ""

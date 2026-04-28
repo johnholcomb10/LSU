@@ -50,6 +50,7 @@
             textBox6 = new TextBox();
             label12 = new Label();
             textBox7 = new TextBox();
+            button4 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -239,12 +240,23 @@
             textBox7.Size = new Size(94, 27);
             textBox7.TabIndex = 22;
             // 
+            // button4
+            // 
+            button4.Location = new Point(625, 409);
+            button4.Name = "button4";
+            button4.Size = new Size(152, 29);
+            button4.TabIndex = 23;
+            button4.Text = "Print Purchases";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Khaki;
             ClientSize = new Size(800, 450);
+            Controls.Add(button4);
             Controls.Add(textBox7);
             Controls.Add(label12);
             Controls.Add(textBox6);
@@ -297,5 +309,6 @@
         private TextBox textBox6;
         private Label label12;
         private TextBox textBox7;
+        private Button button4;
     }
 }

@@ -151,6 +151,36 @@ namespace Final_Project
             }
         }
 
+        private string PromptForPassword()
+        {
+            System.Windows.Forms.Form prompt = new System.Windows.Forms.Form()
+            {
+                Width = 300,
+                Height = 200,
+                Text = "Enter Password",
+                StartPosition = FormStartPosition.CenterScreen
+            };
+
+            Label textLabel = new Label() { Left = 20, Top = 20, Text = "Password:" };
+            System.Windows.Forms.TextBox textBox = new System.Windows.Forms.TextBox() { Left = 20, Top = 50, Width = 240, UseSystemPasswordChar = true };
+            System.Windows.Forms.Button confirmation = new System.Windows.Forms.Button() { Text = "OK", Left = 180, Width = 80, Top = 80, Height = 30 };
+
+            string result = null;
+
+            confirmation.Click += (sender, e) =>
+            {
+                result = textBox.Text;
+                prompt.Close();
+            };
+
+            prompt.Controls.Add(textLabel);
+            prompt.Controls.Add(textBox);
+            prompt.Controls.Add(confirmation);
+
+            prompt.ShowDialog();
+            return result;
+        }
+
         // Handles the click event for the first button to determine ticket price and type based on age
         private void button1_Click(object sender, EventArgs e)
         {
@@ -182,8 +212,8 @@ namespace Final_Project
                 type = "Senior";
             }
 
-            // Display the ticket type and price
-            label3.Text = String.Format("Type: {0} | Price: ${1}", type, price);
+        // Display the ticket type and price
+        label3.Text = String.Format("Type: {0} | Price: ${1}", type, price);
 
             // Make the purchase form elements visible
             button2.Visible = true;
@@ -381,6 +411,62 @@ namespace Final_Project
             catch (Exception ex)
             {
                 MessageBox.Show("Error loading movies: " + ex.Message);
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string password = PromptForPassword();
+
+            // 🔐 Change this to whatever you want
+            if (password != "admin123")
+            {
+                MessageBox.Show("Incorrect password.");
+                return;
+            }
+
+            try
+            {
+                string jsonPath = Path.Combine(Application.StartupPath, "purchases.json");
+
+                if (!File.Exists(jsonPath))
+                {
+                    MessageBox.Show("No purchases found.");
+                    return;
+                }
+
+                string json = File.ReadAllText(jsonPath);
+                List<Purchase> purchases = JsonSerializer.Deserialize<List<Purchase>>(json);
+
+                if (purchases == null || purchases.Count == 0)
+                {
+                    MessageBox.Show("No purchases to export.");
+                    return;
+                }
+
+                StringBuilder sb = new StringBuilder();
+
+                sb.AppendLine("PURCHASE REPORT");
+                sb.AppendLine(new string('=', 40));
+                sb.AppendLine();
+
+                foreach (var p in purchases)
+                {
+                    sb.AppendLine($"Name: {p.Name}");
+                    sb.AppendLine($"Viewing ID: {p.ViewingID}");
+                    sb.AppendLine($"Card: **** **** **** {p.CreditCardNumber.Substring(p.CreditCardNumber.Length - 4)}");
+                    sb.AppendLine($"Exp: {p.Expiration}");
+                    sb.AppendLine(new string('-', 40));
+                }
+
+                string outputPath = Path.Combine(Application.StartupPath, "PurchaseReport.txt");
+                File.WriteAllText(outputPath, sb.ToString());
+
+                MessageBox.Show("Purchases exported successfully!\n\nSaved to:\n" + outputPath);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error exporting purchases: " + ex.Message);
             }
         }
     }
