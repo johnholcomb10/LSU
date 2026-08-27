@@ -5,7 +5,7 @@
     "Time": "6:30 PM",
     "Auditorium": 1,
     "Capacity": 150,
-    "TicketsSold": 120
+    "TicketsSold": 121
   },
   {
     "ViewingID": "V002",
@@ -22,5 +22,13 @@
     "Auditorium": 3,
     "Capacity": 180,
     "TicketsSold": 160
+  },
+  {
+    "ViewingID": "V004",
+    "Title": "Barbie",
+    "Time": "8 am",
+    "Auditorium": 4,
+    "Capacity": 180,
+    "TicketsSold": 0
   }
 ]

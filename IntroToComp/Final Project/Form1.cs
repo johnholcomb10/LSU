@@ -469,5 +469,141 @@ namespace Final_Project
                 MessageBox.Show("Error exporting purchases: " + ex.Message);
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string password = PromptForPassword();
+
+            if (password != "admin123")
+            {
+                MessageBox.Show("Incorrect password.");
+                return;
+            }
+
+            Form addMovieForm = new Form()
+            {
+                Width = 350,
+                Height = 350,
+                Text = "Add Movie",
+                StartPosition = FormStartPosition.CenterScreen
+            };
+
+            // Labels
+            Label lblID = new Label() { Left = 20, Top = 20, Text = "Viewing ID" };
+            Label lblTitle = new Label() { Left = 20, Top = 60, Text = "Title" };
+            Label lblTime = new Label() { Left = 20, Top = 100, Text = "Time" };
+            Label lblAud = new Label() { Left = 20, Top = 140, Text = "Auditorium" };
+            Label lblCap = new Label() { Left = 20, Top = 180, Text = "Capacity" };
+
+            // Textboxes
+            System.Windows.Forms.TextBox txtID = new System.Windows.Forms.TextBox() { Left = 120, Top = 20, Width = 180 };
+            System.Windows.Forms.TextBox txtTitle = new System.Windows.Forms.TextBox() { Left = 120, Top = 60, Width = 180 };
+            System.Windows.Forms.TextBox txtTime = new System.Windows.Forms.TextBox() { Left = 120, Top = 100, Width = 180 };
+            System.Windows.Forms.TextBox txtAud = new System.Windows.Forms.TextBox() { Left = 120, Top = 140, Width = 180 };
+            System.Windows.Forms.TextBox txtCap = new System.Windows.Forms.TextBox() { Left = 120, Top = 180, Width = 180 };
+            System.Windows.Forms.Button btnSave = new System.Windows.Forms.Button() { Text = "Save", Left = 220, Width = 80, Top = 230, Height = 30 };
+
+            btnSave.Click += (s, ev) =>
+            {
+                string viewingID = txtID.Text.Trim();
+                string title = txtTitle.Text.Trim();
+                string time = txtTime.Text.Trim();
+
+                if (string.IsNullOrWhiteSpace(viewingID))
+                {
+                    MessageBox.Show("Enter a Viewing ID.");
+                    return;
+                }
+
+                if (ViewingIDExists(viewingID))
+                {
+                    MessageBox.Show("Viewing ID already exists.");
+                    return;
+                }
+
+                if (string.IsNullOrWhiteSpace(title))
+                {
+                    MessageBox.Show("Enter a title.");
+                    return;
+                }
+
+                if (string.IsNullOrWhiteSpace(time))
+                {
+                    MessageBox.Show("Enter a time.");
+                    return;
+                }
+
+                if (!int.TryParse(txtAud.Text.Trim(), out int auditorium) || auditorium <= 0)
+                {
+                    MessageBox.Show("Invalid auditorium.");
+                    return;
+                }
+
+                if (!int.TryParse(txtCap.Text.Trim(), out int capacity) || capacity <= 0)
+                {
+                    MessageBox.Show("Invalid capacity.");
+                    return;
+                }
+
+                try
+                {
+                    string path = Path.Combine(Application.StartupPath, "movies.json");
+
+                    List<Movie> movies;
+
+                    if (File.Exists(path))
+                    {
+                        string json = File.ReadAllText(path);
+                        movies = JsonSerializer.Deserialize<List<Movie>>(json) ?? new List<Movie>();
+                    }
+                    else
+                    {
+                        movies = new List<Movie>();
+                    }
+
+                    Movie newMovie = new Movie
+                    {
+                        ViewingID = viewingID,
+                        Title = title,
+                        Time = time,
+                        Auditorium = auditorium,
+                        Capacity = capacity,
+                        TicketsSold = 0
+                    };
+
+                    movies.Add(newMovie);
+
+                    string updatedJson = JsonSerializer.Serialize(
+                        movies,
+                        new JsonSerializerOptions { WriteIndented = true });
+
+                    File.WriteAllText(path, updatedJson);
+
+                    MessageBox.Show("Movie added successfully!");
+                    addMovieForm.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+            };
+
+            // Add controls
+            addMovieForm.Controls.Add(lblID);
+            addMovieForm.Controls.Add(lblTitle);
+            addMovieForm.Controls.Add(lblTime);
+            addMovieForm.Controls.Add(lblAud);
+            addMovieForm.Controls.Add(lblCap);
+
+            addMovieForm.Controls.Add(txtID);
+            addMovieForm.Controls.Add(txtTitle);
+            addMovieForm.Controls.Add(txtTime);
+            addMovieForm.Controls.Add(txtAud);
+            addMovieForm.Controls.Add(txtCap);
+
+            addMovieForm.Controls.Add(btnSave);
+
+            addMovieForm.ShowDialog();
+        }
     }
 }
