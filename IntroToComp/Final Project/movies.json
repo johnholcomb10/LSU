@@ -1,0 +1,26 @@
+[
+  {
+    "ViewingID": "V001",
+    "Title": "Avengers: Endgame",
+    "Time": "6:30 PM",
+    "Auditorium": 1,
+    "Capacity": 150,
+    "TicketsSold": 120
+  },
+  {
+    "ViewingID": "V002",
+    "Title": "The Batman",
+    "Time": "8:00 PM",
+    "Auditorium": 2,
+    "Capacity": 200,
+    "TicketsSold": 180
+  },
+  {
+    "ViewingID": "V003",
+    "Title": "Spider-Man: No Way Home",
+    "Time": "9:15 PM",
+    "Auditorium": 3,
+    "Capacity": 180,
+    "TicketsSold": 160
+  }
+]

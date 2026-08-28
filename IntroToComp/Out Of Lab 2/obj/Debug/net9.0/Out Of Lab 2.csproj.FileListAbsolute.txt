@@ -1,0 +1,15 @@
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\bin\Debug\net9.0\Out Of Lab 2.exe
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\bin\Debug\net9.0\Out Of Lab 2.deps.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\bin\Debug\net9.0\Out Of Lab 2.runtimeconfig.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\bin\Debug\net9.0\Out Of Lab 2.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\bin\Debug\net9.0\Out Of Lab 2.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\obj\Debug\net9.0\Out Of Lab 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\obj\Debug\net9.0\Out Of Lab 2.AssemblyInfoInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\obj\Debug\net9.0\Out Of Lab 2.AssemblyInfo.cs
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\obj\Debug\net9.0\Out Of Lab 2.csproj.CoreCompileInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\obj\Debug\net9.0\Out Of Lab 2.sourcelink.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\obj\Debug\net9.0\Out Of Lab 2.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\obj\Debug\net9.0\refint\Out Of Lab 2.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\obj\Debug\net9.0\Out Of Lab 2.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\obj\Debug\net9.0\Out Of Lab 2.genruntimeconfig.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out Of Lab 2\obj\Debug\net9.0\ref\Out Of Lab 2.dll

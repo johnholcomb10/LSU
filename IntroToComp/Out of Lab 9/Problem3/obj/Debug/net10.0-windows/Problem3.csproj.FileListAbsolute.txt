@@ -1,0 +1,17 @@
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\bin\Debug\net10.0-windows\Problem3.exe
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\bin\Debug\net10.0-windows\Problem3.deps.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\bin\Debug\net10.0-windows\Problem3.runtimeconfig.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\bin\Debug\net10.0-windows\Problem3.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\bin\Debug\net10.0-windows\Problem3.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\Problem3.Form1.resources
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\Problem3.csproj.GenerateResource.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\Problem3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\Problem3.AssemblyInfoInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\Problem3.AssemblyInfo.cs
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\Problem3.csproj.CoreCompileInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\Problem3.sourcelink.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\Problem3.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\refint\Problem3.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\Problem3.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\Problem3.genruntimeconfig.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\Out of Lab 9\Problem3\obj\Debug\net10.0-windows\ref\Problem3.dll

@@ -1,0 +1,17 @@
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\bin\Debug\net10.0-windows\InLab9.exe
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\bin\Debug\net10.0-windows\InLab9.deps.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\bin\Debug\net10.0-windows\InLab9.runtimeconfig.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\bin\Debug\net10.0-windows\InLab9.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\bin\Debug\net10.0-windows\InLab9.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\InLab9.Form1.resources
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\InLab9.csproj.GenerateResource.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\InLab9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\InLab9.AssemblyInfoInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\InLab9.AssemblyInfo.cs
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\InLab9.csproj.CoreCompileInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\InLab9.sourcelink.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\InLab9.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\refint\InLab9.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\InLab9.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\InLab9.genruntimeconfig.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab9\obj\Debug\net10.0-windows\ref\InLab9.dll

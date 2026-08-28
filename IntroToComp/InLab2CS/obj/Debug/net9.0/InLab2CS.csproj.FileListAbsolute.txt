@@ -1,0 +1,15 @@
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\bin\Debug\net9.0\InLab2CS.exe
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\bin\Debug\net9.0\InLab2CS.deps.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\bin\Debug\net9.0\InLab2CS.runtimeconfig.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\bin\Debug\net9.0\InLab2CS.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\bin\Debug\net9.0\InLab2CS.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\obj\Debug\net9.0\InLab2CS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\obj\Debug\net9.0\InLab2CS.AssemblyInfoInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\obj\Debug\net9.0\InLab2CS.AssemblyInfo.cs
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\obj\Debug\net9.0\InLab2CS.csproj.CoreCompileInputs.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\obj\Debug\net9.0\InLab2CS.sourcelink.json
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\obj\Debug\net9.0\InLab2CS.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\obj\Debug\net9.0\refint\InLab2CS.dll
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\obj\Debug\net9.0\InLab2CS.pdb
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\obj\Debug\net9.0\InLab2CS.genruntimeconfig.cache
+C:\Users\johnt\OneDrive - Louisiana State University\Documents\GitHub\LSU\IntroToComp\InLab2CS\obj\Debug\net9.0\ref\InLab2CS.dll
