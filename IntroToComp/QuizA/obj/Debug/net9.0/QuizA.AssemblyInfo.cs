@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuizA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62671e7eacb1dcc51ecd5cfaa7cfe2585f5a753a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ab0e3a7c586113af0c72676f3928b2a4bba2580")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuizA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuizA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

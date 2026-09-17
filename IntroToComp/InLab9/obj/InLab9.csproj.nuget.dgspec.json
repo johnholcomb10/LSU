@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\InLab9\\InLab9.csproj": {}
+    "C:\\GitHub\\LSU\\IntroToComp\\InLab9\\InLab9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\InLab9\\InLab9.csproj": {
+    "C:\\GitHub\\LSU\\IntroToComp\\InLab9\\InLab9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\InLab9\\InLab9.csproj",
+        "projectUniqueName": "C:\\GitHub\\LSU\\IntroToComp\\InLab9\\InLab9.csproj",
         "projectName": "InLab9",
-        "projectPath": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\InLab9\\InLab9.csproj",
+        "projectPath": "C:\\GitHub\\LSU\\IntroToComp\\InLab9\\InLab9.csproj",
         "packagesPath": "C:\\Users\\johnt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\InLab9\\obj\\",
+        "outputPath": "C:\\GitHub\\LSU\\IntroToComp\\InLab9\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\InLab2CS\\InLab2CS.csproj": {}
+    "C:\\GitHub\\LSU\\IntroToComp\\InLab2CS\\InLab2CS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\InLab2CS\\InLab2CS.csproj": {
+    "C:\\GitHub\\LSU\\IntroToComp\\InLab2CS\\InLab2CS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\InLab2CS\\InLab2CS.csproj",
+        "projectUniqueName": "C:\\GitHub\\LSU\\IntroToComp\\InLab2CS\\InLab2CS.csproj",
         "projectName": "InLab2CS",
-        "projectPath": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\InLab2CS\\InLab2CS.csproj",
+        "projectPath": "C:\\GitHub\\LSU\\IntroToComp\\InLab2CS\\InLab2CS.csproj",
         "packagesPath": "C:\\Users\\johnt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnt\\OneDrive - Louisiana State University\\Documents\\GitHub\\LSU\\IntroToComp\\InLab2CS\\obj\\",
+        "outputPath": "C:\\GitHub\\LSU\\IntroToComp\\InLab2CS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\johnt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\johnt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -54,12 +60,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.15, 9.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.15, 9.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.15, 9.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.15, 9.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
